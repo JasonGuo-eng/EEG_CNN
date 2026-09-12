@@ -156,14 +156,3 @@ Run checks with:
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-## Upload to GitHub
-
-Upload the source package contents, including the dotfiles, config/, results/ and
-tests/. The .gitignore excludes EEG data, environments, checkpoints and generated
-outputs. A provided source ZIP contains only publishable project files; extract it
-first for browser uploads. To include trained weights later, distribute them
-separately with their model manifest and provenance. Do not drag data/processed into
-GitHub's upload page: browser uploads do not apply .gitignore automatically.
-
-No code license has been selected on your behalf. Add your preferred license before
-inviting reuse. The dataset's CC0 license is separate from the code license.
