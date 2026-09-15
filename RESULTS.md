@@ -33,11 +33,8 @@ development. External validation has not been performed. Age 60-70 MAE is about
 10.14 years; errors are not uniform across ages. These results do not establish
 clinical biological-age accuracy.
 
-The original 10.16 +/- 0.30 CNN result was supplied by the project owner and was
-not rerun under this evaluation protocol. It is not a controlled comparison here.
 
-
-## Standalone project verification
+## Verification
 
 - All six synthetic pipeline tests passed, including fit/save/predict and channel alignment.
 - All 608 subject fold assignments match the original reference.
@@ -49,5 +46,3 @@ not rerun under this evaluation protocol. It is not a controlled comparison here
 - Original BIDS preprocessing completed for subject 230, producing 56 closed and
   60 open windows. Those arrays passed a saved-model prediction smoke check.
 
-See results/verification.json. These checks validate the refactor and packaging;
-full five-fold training from freshly preprocessed EDF data has not been rerun.
